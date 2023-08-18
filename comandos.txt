@@ -1,0 +1,18 @@
+pip install django
+
+//criar novo projeto: 
+django-admin startproject oficina_django .
+//sem o ponto uma nova pasta vai ser criada
+//nome do projeto criado: oficina_django
+
+python manage.py runserver
+
+python manage.py startapp tarefa
+//criou o app tarefa
+//depois é necessário adicionar o nome do app dentro do arquivo settings.py na área INSTALLED APPS
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser

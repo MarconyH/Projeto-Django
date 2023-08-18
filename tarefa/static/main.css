@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar-django{
+    height: 20vh;
+    width: 100vw;
+    background-color: #1E5627;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar-django p{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+}
+
+#logo-django{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-container{
+    height: 80vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content{
+    height: 30rem;
+    width: 65rem;
+
+}
+
+.form-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box a{
+    padding: 0.5rem 1rem ;
+    background-color: #e1e0e4;
+    border-radius: 0.3rem;
+}
+
+#search-box-icon{
+    width: 1rem;
+    height: 1rem;
+}
+
